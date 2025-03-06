@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Red",
+    "category": "Primary Color",
+    "priceCents": 1600,
+    "imageSrc": "Assets/red.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Yellow",
+    "category": "Primary Color",
+    "priceCents": 2100,
+    "imageSrc": "Assets/yellow.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Blue",
+    "category": "Primary Color",
+    "priceCents": 1200,
+    "imageSrc": "Assets/blue.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Orange",
+    "category": "Secondary Color",
+    "priceCents": 1800,
+    "imageSrc": "Assets/orange.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Green",
+    "category": "Secondary Color",
+    "priceCents": 1600,
+    "imageSrc": "Assets/green.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Purple",
+    "category": "Secondary Color",
+    "priceCents": 2100,
+    "imageSrc": "Assets/purple.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Light Gray",
+    "category": "Grayscale",
+    "priceCents": 1200,
+    "imageSrc": "Assets/lightGrey.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dark Gray",
+    "category": "Grayscale",
+    "priceCents": 1600,
+    "imageSrc": "Assets/darkGrey.jpg"
+  }
+]

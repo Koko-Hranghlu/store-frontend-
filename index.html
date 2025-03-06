@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module"></script>
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="menu">
+          <a class="menu__link menu__link--active" href="index.html">Home</a>
+          <a class="menu__link" href="store.html">Store</a>
+          <a class="menu__link" href="team.html">Team</a>
+        </nav>
+        <div class="cart">
+          <button class="cart__btn">
+            <img src="Assets/icon-cart-white.svg" alt="cart icon" />
+            <span class="cart__quantity"></span>
+          </button>
+          <div class="cart__items-wrapper">
+            <div class="cart__items"></div>
+            <div class="cart__total-wrapper">
+              <span>TOTAL</span>
+              <span class="cart__total">$0.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container ps">
+      <h2 class="">Some Of Our Amazing Products</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae assumenda
+        totam, animi libero hic voluptas reiciendis nesciunt id ad ipsum
+        doloremque nisi qui esse nam est sapiente, explicabo ab beatae
+        repellendus, perferendis cupiditate facilis. Beatae quod repellat
+        expedita! Numquam, et!
+      </p>
+    </section>
+    <section class="products container">
+      <div>
+        <img class="products__img" src="Assets/blue.jpg" alt="product image" />
+      </div>
+      <div>
+        <img class="products__img" src="Assets/red.jpg" alt="product image" />
+      </div>
+      <div>
+        <img
+          class="products__img"
+          src="Assets/yellow.jpg"
+          alt="product image"
+        />
+      </div>
+      <div>
+        <img class="products__img" src="Assets/green.jpg" alt="product image" />
+      </div>
+      <div>
+        <img
+          class="products__img"
+          src="Assets/orange.jpg"
+          alt="product image"
+        />
+      </div>
+      <div>
+        <img
+          class="products__img"
+          src="Assets/purple.jpg"
+          alt="product image"
+        />
+      </div>
+    </section>
+    <template id="cart-item-template">
+      <div class="cart-item">
+        <div class="cart-item__img-container">
+          <img
+            class="cart-item__img w-100 block"
+            alt="item image"
+            src="Assets/blue.jpg"
+          />
+          <button class="cart-item__close-btn">&times;</button>
+        </div>
+        <div class="cart-item__desc">
+          <div class="cart-item__name"></div>
+          <div class="cart-item__quantity"></div>
+          <div class="cart-item__price"></div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

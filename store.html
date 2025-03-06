@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module"></script>
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="menu">
+          <a class="menu__link" href="index.html">Home</a>
+          <a class="menu__link menu__link--active" href="store.html">Store</a>
+          <a class="menu__link" href="team.html">Team</a>
+        </nav>
+        <button class="cart__btn">
+          <img src="Assets/icon-cart-white.svg" alt="cart icon" />
+          <span class="cart__quantity"></span>
+        </button>
+        <div class="cart__items-wrapper">
+          <div class="cart__items"></div>
+          <div class="cart__total-wrapper">
+            <span>TOTAL</span>
+            <span class="cart__total">$0.00</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container items"></section>
+    <template id="item-template">
+      <div class="item">
+        <img class="item__img" src="Assets/blue.jpg" alt="product image" />
+        <small class="item__category">PRIMARY COLOR</small>
+        <strong class="item__name">Blue</strong>
+        <small class="item__price">$16.00</small>
+        <button class="item__add-btn">Add To Cart</button>
+      </div>
+    </template>
+    <template id="cart-item-template">
+      <div class="cart-item">
+        <div class="cart-item__img-container">
+          <img
+            class="cart-item__img w-100 block"
+            alt="item image"
+            src="Assets/blue.jpg"
+          />
+          <button class="cart-item__close-btn">&times;</button>
+        </div>
+        <div class="cart-item__desc">
+          <div class="cart-item__name"></div>
+          <div class="cart-item__quantity"></div>
+          <div class="cart-item__price"></div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>
